@@ -1,16 +1,7 @@
-# Báo cáo bài tập lớn nhóm 2 - Learning Management System
+# Báo cáo bài tập lớn nhóm 15 CNPM - Learning Management System
 
 ---
 
-## Thành viên
-
-- Nguyễn Tuấn Nam - frontend, backend, deploy
-- Đỗ Anh Tú - frontend
-- Đỗ Minh Quân - frontend
-- Nông Ngọc Sơn - frontend
-- Nguyễn Phú Đức - frontend
-- Bùi Minh Sơn - backend
-- Phan Duy Thắng - backend
 
 ## Đề tài nhóm
 
@@ -59,23 +50,7 @@
   - Chạy lệnh `npm install`
   - Chạy lệnh `npm start`
 - Gõ [localhost:3000](localhost:3000) trong browser để được đưa tới trang web sản phẩm
-
-## Hướng dẫn build cho môi trường production
-
-- Clone mã nguồn về
-- Tạo database với tên w42g2_lms trong MySQL và import data từ file Dump20221212.sql
-- Mở 2 terminal, 1 terminal `cd` tới thư mục frontend, 1 terminal `cd` thư mục backend
-- Trong terminal frontend
-  - Chạy lệnh `npm install`
-  - Chạy lệnh `npm run build`
-- Trong terminal backend
-  - Tạo và khởi động một virtual environment
-  - Chạy lệnh `pip install -r requirements.txt`
-  - Chạy lệnh `python manage.py migrate`
-  - Chạy lệnh `python manage.py collectstatic`
-  - Chạy lệnh `expose 8080`
-  - Chạy lệnh `waitress-serve --host <địa chỉ ip khi chạy lệnh expose> lms.wsgi:application`
-- Gõ [w42g2.int3306.freeddns.org](http://w42g2.int3306.freeddns.org/login) trong browser để được đưa tới trang web sản phẩm
+- Các lần chạy lần sau chỉ cần chạy run.bat
 
 ## Tài khoản mẫu
 
@@ -83,8 +58,8 @@
   - Tên đăng nhập: admin
   - Mật khẩu: admin
 - Sinh viên
-  - Tên đăng nhập: 20021427
-  - Mật khẩu: 20021427aa
+  - Tên đăng nhập: 20021439
+  - Mật khẩu: 20021439abc
 
 ## Một số hình ảnh mô tả
 
