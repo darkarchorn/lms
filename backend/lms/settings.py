@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-w-(+k059g6ty)o3b*d3e*5bfsl(l1m5525$2)wg6a$*b0+-#sd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  
         'NAME': 'lms',  
         'USER': 'root',  
-        'PASSWORD': 'mynameisnam8226', 
+        'PASSWORD': os.environ.get("MYSQL_PASSWORD"), 
         'HOST': '127.0.0.1',  
         'PORT': '3306',  
         'OPTIONS': {  
