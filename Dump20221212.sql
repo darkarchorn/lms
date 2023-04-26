@@ -121,7 +121,7 @@ CREATE TABLE `base_announcement` (
 
 LOCK TABLES `base_announcement` WRITE;
 /*!40000 ALTER TABLE `base_announcement` DISABLE KEYS */;
-INSERT INTO `base_announcement` VALUES (1,'Thông báo toàn trường','\"Hôm này nghỉ nhé các bé\"','2022-12-07'),(2,'Thông báo toàn khoa','Họp tổng FIT UET','2022-12-07');
+INSERT INTO `base_announcement` VALUES (1,'Thông báo toàn trường','\"Hôm này nghỉ học, các lớp học phần diễn ra trực tuyến như đã hướng dẫn!\"','2022-12-07'),(2,'Thông báo toàn khoa','Họp tổng FIT UET','2022-12-07');
 
 UNLOCK TABLES;
 
